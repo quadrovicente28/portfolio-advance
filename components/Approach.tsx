@@ -16,7 +16,7 @@ const Approach = () => {
         <Card
           title="Planning"
           icon={<AceternityIcon order="Phase 1" />}
-          description="First, I gather requirements from stakeholders and conduct user research to understand our target audience. I define the project scope, detailing features and functionality, and create a detailed project plan with timelines and budgets. I then develop wireframes and prototypes to visualize the design and user experience. Finally, I choose the appropriate technology stack, including frontend and backend technologies, and finalize the UI/UX design to align with our brand identity."
+          description="First, I gather requirements from project manager and conduct user research to understand our target audience. I define the project scope, detailing features and functionality, and create a detailed project plan with timelines and budgets. I then develop wireframes and prototypes to visualize the design and user experience. Finally, I choose the appropriate technology stack, including frontend and backend technologies, and finalize the UI/UX design to align with our brand identity."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
