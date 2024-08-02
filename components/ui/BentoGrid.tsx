@@ -106,28 +106,26 @@ export const BentoGridItem = ({
           <div className="font-sans font-normal text-neutral-600 text-sm md:text-xs lg:text-base z-10">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg lg:text-3xl">{title}</div>
+          <div className="font-sans font-bold text-lg lg:text-xl xl:text-2xl">{title}</div>
 
           {id === 2 && <GlobeDemo />}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              <div className="flex flex-col gap-3 lg:gap-8">
-                {["React.js", "Next.js", "Typescript"].map((item) => (
+              <div className="flex flex-col gap-3 xl:gap-8">
+                {["React.js", "Next.js", "Typescript", "Laravel"].map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    className="py-2 xl:py-4 xl:px-3 px-3 text-xs xl:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
                 ))}
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
               </div>
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-                {["Vue.js", "AWS", "MONGODB"].map((item) => (
+              <div className="flex flex-col gap-3 xl:gap-8">
+                {["PHP", "Javascript", "HTML", "CSS"].map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    className="py-2 xl:py-4 xl:px-3 px-3 text-xs xl:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>

@@ -34,7 +34,7 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
             Hi, I&apos;m Josh, a React.js Developer based in Philippines.
           </p>
-          <a href="#about">
+          <a href="#projects">
             <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
           </a>
         </div>

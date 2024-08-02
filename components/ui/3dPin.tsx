@@ -15,7 +15,7 @@ export const PinContainer = ({
   title?: string;
   href?: string;
   className?: string;
-  containerClassName?: string;
+    containerClassName?: string;
 }) => {
   const [transform, setTransform] = useState(
     "translate(-50%,-50%) rotateX(0deg)"
@@ -33,10 +33,12 @@ export const PinContainer = ({
       className={cn(
         "relative group/pin z-50  cursor-pointer",
         containerClassName
+        
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       href={href || "/"}
+      target="_blank"
     >
       <div
         style={{
@@ -67,7 +69,7 @@ export const PinPerspective = ({
   href?: string;
 }) => {
   return (
-    <motion.div className="pointer-events-none  w-96 h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
+    <motion.div className="pointer-events-none h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
       <div className=" w-full h-full -mt-7 flex-none  inset-0">
         <div className="absolute top-0 inset-x-0  flex justify-center">
           <a
