@@ -110,8 +110,8 @@ export const BentoGridItem = ({
 
           {id === 2 && <GlobeDemo />}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              <div className="flex flex-col gap-3 xl:gap-8">
+            <div className="flex gap-1 lg:gap-3 w-fit absolute -right-3 lg:-right-2">
+              <div className="flex flex-col gap-3 xl:gap-3">
                 {["GHL", "Wordpress", "Squarespace"].map((item) => (
                   <span
                     key={item}
@@ -121,7 +121,7 @@ export const BentoGridItem = ({
                   </span>
                 ))}
               </div>
-              <div className="flex flex-col gap-3 xl:gap-8">
+              <div className="flex flex-col gap-3 xl:gap-3">
                 {["Javascript", "HTML", "CSS"].map((item) => (
                   <span
                     key={item}
@@ -133,7 +133,6 @@ export const BentoGridItem = ({
               </div>
             </div>
                   )}
-                  
                   {id === 6 && (
                       <div className="mt-5 relative">
                           <div className={`absolute -bottom-5 right-0`}>
